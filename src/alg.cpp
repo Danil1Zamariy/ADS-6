@@ -6,7 +6,7 @@
 #include  "bst.h"
 
 BST<std::string> makeTree(const char* filename) {
-   std::ifstream file(filename);
+  std::ifstream file(filename);
   BST<std::string> tree;
   std::string word, line;
   while (!file.eof()) {
